@@ -61,3 +61,7 @@ div#tamanho {
     color: greenyellow;
     display: inline-block;
 }
+
+.coment {
+    font-family: 'Courier New', Courier, monospace;
+}
