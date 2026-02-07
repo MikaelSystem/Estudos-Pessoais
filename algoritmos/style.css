@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    height: 2000px;
+    height: 210vw;
 }
 
 .cind {
@@ -42,4 +42,22 @@ div#tamanho {
 .soma {
     text-indent: 20px;
     font-weight: bolder;
+}
+
+.errado {
+    background-color: rgba(255, 0, 0, 0.562);
+    display: inline-block;
+    font-weight: bolder;
+}
+
+.certo {
+    background-color: greenyellow;
+    display: inline-block;
+    font-weight: bolder;
+}
+
+.saida {
+    background-color: black;
+    color: greenyellow;
+    display: inline-block;
 }
