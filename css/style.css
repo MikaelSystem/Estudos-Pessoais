@@ -1,84 +1,37 @@
 @charset "UTF-8";
 
-* {
+/*
+==========================================
+Configuração padrão
+==========================================
+*/
+
+body:not(.home-page) * {
     padding: 0px;
     margin: 0px;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    height: 210vw;
 }
 
-.cind {
-    text-indent: 20px;
+/*
+=========================================
+Configuração da Vitrine (Pág principal)
+=========================================
+*/
+
+body.home-page {
+    background-color: rgb(224, 224, 224);
 }
 
-.cind1 {
-    text-indent: 40px;
-}
+/*
+==========================================
+Classes definidas (Pág principal)
+==========================================
+*/
 
-.destaq {
-    font-weight: bolder;
-}
-
-#maior {
-    font-size: 18px;
-    background-color: rgb(231, 231, 231);
-    display: inline-block;
-    margin-bottom: 10px;
-}
-
-#espaco {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-div#tamanho {
-    font-size: 25px;
-    padding: 10px;
-}
-
-.soma {
-    text-indent: 20px;
-    font-weight: bolder;
-}
-
-.errado {
-    background-color: rgba(255, 0, 0, 0.562);
-    display: inline-block;
-    font-weight: bolder;
-}
-
-.certo {
-    background-color: greenyellow;
-    display: inline-block;
-    font-weight: bolder;
-}
-
-.saida {
-    background-color: black;
-    color: greenyellow;
-    display: inline-block;
-}
-
-.coment {
-    font-family: 'Courier New', Courier, monospace;
-}
-
-main {
-    background-color: rgb(204, 204, 204);
-    width: clamp(460px, 70%, 1200px);
-    margin: auto;
-    padding: 10px;
-    box-shadow: 1px 1px 10px 4px rgba(0, 0, 0, 0.185);
-}
-
-body {
-    background-color: rgb(130, 157, 180);
-}
-
-td, th {
-    border: 1px solid black;
-    padding: 10px;
+.home-page ul {
+    margin-top: -20px;
+    margin-bottom: -20px;
 }
