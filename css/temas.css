@@ -4,6 +4,68 @@
    TEMA: ADS (ALGORITMOS)
    ========================== */
 
-.temas-ads {
-    background-color: rgb(212, 212, 212);
+body.temas-ads {
+    background-color: rgb(0, 0, 0);
+    background-image: url(/assets/backgrounds/background_ads.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+main {
+    width: clamp(720px, 70%, 1100px);
+    margin: auto;
+    padding: 20px;
+    border-radius: 2px;
+    font-size: 22px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.603);
+    width: 90%;
+    height: 200px;
+    color: white;
+    margin: auto;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+header > nav {
+    background-color: rgba(88, 88, 88, 0.795);
+    margin-top: 120px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+header > nav > a {
+    color: white;
+}
+
+header > nav > a:hover {
+    color: rgb(0, 255, 42);
+}
+
+
+/* ==========================
+   CLASSES-IDS, CONJUNTOS: ADS
+   ========================== */
+
+main.main-ads {
+    background-color: rgba(105, 162, 211, 0.911);
+}
+
+/* ==========================
+   CLASSES-IDS, ISOLADAS: ADS
+   ========================== */
+
+.boxcodigo {
+    background-color: rgb(49, 49, 49);
+    padding: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px 10px rgba(0, 0, 0, 0.144);
+    color: rgba(172, 255, 47, 0.822);
+    font-size: 14px;
+    font-weight: bolder;
 }
