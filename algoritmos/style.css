@@ -68,7 +68,7 @@ div#tamanho {
 
 main {
     background-color: rgb(204, 204, 204);
-    width: 80%;
+    width: clamp(460px, 70%, 1200px);
     margin: auto;
     padding: 10px;
     box-shadow: 1px 1px 10px 4px rgba(0, 0, 0, 0.185);
