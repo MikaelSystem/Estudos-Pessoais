@@ -69,3 +69,19 @@ main.main-ads {
     font-size: 14px;
     font-weight: bolder;
 }
+
+/* ==========================
+   TEMA: MATEMÁTICA GERAL
+   ========================== */
+
+body.temas-matematica {
+    background-color: rgb(0, 0, 0);
+    background-image: url(/assets/backgrounds/matematica-geral-background.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+main.main-math {
+     background-color: rgba(105, 211, 105, 0.911);
+}
