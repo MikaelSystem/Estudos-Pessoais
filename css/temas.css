@@ -13,11 +13,11 @@ body.temas-ads {
 }
 
 main {
-    width: clamp(720px, 70%, 1100px);
+    width: clamp(420px, 70%, 1100px);
     margin: auto;
     padding: 20px;
     border-radius: 2px;
-    font-size: 22px;
+    font-size: clamp(30px, 60%, 40px);
 }
 
 header {
@@ -49,6 +49,15 @@ header > nav > a:hover {
     text-shadow: 0px 0px 10px rgb(0, 17, 255);
 }
 
+div:not(.boxcodigo) {
+    text-align: center;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
 
 /* ==========================
    CLASSES-IDS, CONJUNTOS: ADS
@@ -56,6 +65,14 @@ header > nav > a:hover {
 
 main.main-ads {
     background-color: rgba(105, 162, 211, 0.911);
+}
+
+div>img.quadro-math {
+    width: clamp(380px, 60%, 500px);
+    text-align: center;
+    border: 10px solid rgba(0, 0, 0, 0.952);
+    border-style: groove;
+    background-color: rgb(211, 211, 211);
 }
 
 /* ==========================
