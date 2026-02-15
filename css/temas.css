@@ -168,3 +168,6 @@ a.exercicios:hover {
     font-weight: bolder;
 }
 
+#qm1 {
+    width: clamp(300px, 80%, 800px);
+}
