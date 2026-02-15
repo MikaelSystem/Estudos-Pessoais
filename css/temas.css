@@ -139,6 +139,16 @@ div>img.quadro-math {
     background-color: rgb(26, 92, 21);
 }
 
+a.exercicios {
+    color: rgb(245, 255, 152);
+    text-decoration: none;
+    text-align: end;
+}
+
+a.exercicios:hover {
+    color: yellow;
+}
+
 /* ==========================
    CLASSES ISOLADAS: MATEMÁTICA
    ========================== */
@@ -157,3 +167,4 @@ div>img.quadro-math {
     color: yellow;
     font-weight: bolder;
 }
+
