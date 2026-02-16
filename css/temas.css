@@ -11,16 +11,8 @@
 }
 
 /* ==========================
-   TEMA: ADS (ALGORITMOS)
+   TEMA: PADRÃO DE FÁBRICA
    ========================== */
-
-body.temas-ads {
-    background-color: rgb(0, 0, 0);
-    background-image: url(/assets/backgrounds/background_ads.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-}
 
 main {
     width: clamp(420px, 70%, 1100px);
@@ -73,15 +65,34 @@ div:not(.boxcodigo) {
 footer {
     color: white;
     background-color: rgba(0, 0, 0, 0.356);
-    border: 1px solid rgb(113, 113, 255);
+    border: 1px solid rgb(255, 255, 255);
     margin-top: 20px;
     padding: -10px;
     text-align: center;
 }
 
+footer>p>a {
+    color: rgb(255, 0, 119);
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: var(--fonte-paragrafo);
+}
+
+footer>p>a:hover {
+    color: rgb(255, 157, 174);
+}
+
 /* ==========================
    CLASSES-IDS, CONJUNTOS: ADS
    ========================== */
+
+body.temas-ads {
+    background-color: rgb(0, 0, 0);
+    background-image: url(/assets/backgrounds/background_ads.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
 
 main.main-ads {
     background-color: rgba(105, 162, 211, 0.911);
