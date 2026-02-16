@@ -179,6 +179,14 @@ a.exercicios:hover {
     font-weight: bolder;
 }
 
+.explica {
+    background-color: rgba(0, 0, 0, 0.24);
+    text-align: center;
+    border: 9px solid rgba(255, 255, 255, 0.644);
+    color: yellow;
+    padding: 20px;
+}
+
 #qm1 {
     width: clamp(300px, 80%, 800px);
 }
